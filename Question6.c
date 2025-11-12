@@ -9,7 +9,7 @@ float calculateTax(float grossIncome, float *netIncome) {
         tax = (grossIncome - 20000) * 0.1;
     }
     else {
-        tax = (30000 * 0.1) + ((grossIncome - 50000) * 0.2);
+        tax = (50000 * 0.1) + ((grossIncome - 50000) * 0.2);
     }
     *netIncome = grossIncome - tax;
     return tax;
